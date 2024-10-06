@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         element: <LandingPage />,
       },
       {
-        path: "/onboarding",
+        path: "/Onboarding",
         element: (
           <ProtectedRoute>
             <Onboarding />
