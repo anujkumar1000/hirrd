@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export const darkMode = ["class"];
 export const content = [
-	"./index.html",
-	"./src/**/*.{js,ts,jsx,tsx}",
+	// "./index.html",
+	// "./src/**/*.{js,ts,jsx,tsx}",
 	"./pages/**/*.{js,jsx}",
 	"./components/**/*.{js,jsx}",
 	"./app/**/*.{js,jsx}",
-	// "./src/**/*.{js,jsx}",
+	"./src/**/*.{js,jsx}",
 ];
 export const prefix = "";
 export const theme = {
